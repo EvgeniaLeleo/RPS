@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title,
+h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+input {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+
+  color: #292929;
+
+  border-radius: 100px;
+  border-color: #b3c3f1;
+
+  padding: 11px 15px;
+  margin-right: 15px;
+}
+
+button {
+  display: inline-block;
+
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+
+  color: #292929;
+
+  padding: 15px 45px;
+
+  border-radius: 100px;
+  border-color: #b3c3f1;
+  border: none;
+
+  background-color: #b3c3f1;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #c1d0ff;
+    border-color: #c1d0ff;
+    cursor: pointer;
+  }
+}
+
+.lobby-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  // border: 2px solid red;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.player-container {
+  height: 70%;
+  // border: 2px solid green;
+}
+
+.player-list-container {
+  overflow: auto;
+  height: 80%;
+  // border: 2px solid blue;
+}
+
+.player-wins {
+  color: green;
+}
+
+.player-loses {
+  color: red;
+}
+
+.enemy-name {
+  margin-bottom: 20px;
+}
+
+.buttons-move {
+  display: flex;
+  gap: 15px;
+}

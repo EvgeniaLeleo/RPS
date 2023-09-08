@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.title,
+h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+input {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border-radius: 100px;
+  border-color: #b3c3f1;
+  padding: 11px 15px;
+  margin-right: 15px;
+}
+
+button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  border-radius: 100px;
+  border-color: #b3c3f1;
+  border: none;
+  background-color: #b3c3f1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #c1d0ff;
+  border-color: #c1d0ff;
+  cursor: pointer;
+}
+
+.lobby-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.player-container {
+  height: 70%;
+}
+
+.player-list-container {
+  overflow: auto;
+  height: 80%;
+}
+
+.player-wins {
+  color: green;
+}
+
+.player-loses {
+  color: red;
+}
+
+.enemy-name {
+  margin-bottom: 20px;
+}
+
+.buttons-move {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+/*# sourceMappingURL=style.css.map */
